@@ -1,0 +1,61 @@
+body {
+  background-color: #dbab0f;
+}
+.info-card {
+  background-color: #272727;
+  width: 100%;
+  margin-top: 5%;
+  min-height: 95vh;
+  position: relative;
+  text-align: center;
+}
+.item {
+  width: 50%;
+  left: 25%;
+  position: relative;
+  padding: 50px 0 50px 0;
+}
+.item input {
+  width: 20rem;
+  height: 40px;
+  background-color: #571763;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+.box {
+  width: 100%;
+  min-height: 50px;
+  position: relative;
+  text-align: center;
+}
+.box-text-container {
+  width: 100%;
+  background-color: #571763;
+  position: relative;
+  overflow: hidden;
+}
+.box-text-container p {
+  width: 70%;
+  margin-left: 15%;
+  text-align: justify;
+  position: relative;
+  color: whitesmoke;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: #383838a1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dbac0fda;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a746b8;
+}
