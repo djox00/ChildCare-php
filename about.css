@@ -41,6 +41,7 @@ body {
   text-align: justify;
   position: relative;
   color: whitesmoke;
+  overflow: hidden;
 }
 
 ::-webkit-scrollbar {
