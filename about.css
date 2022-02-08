@@ -4,7 +4,7 @@ body {
 .info-card {
   background-color: #272727;
   width: 100%;
-  margin-top: 10%;
+  margin-top: 0;
   min-height: 95%;
   position: relative;
   text-align: center;
@@ -80,4 +80,15 @@ hr {
   left: 0;
   position: relative;
   right: 0;
+}
+
+.question {
+  top: 150;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+}
+.question p {
+  color: whitesmoke;
+  font-size: 30;
 }

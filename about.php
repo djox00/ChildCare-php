@@ -12,6 +12,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
         <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
         <link rel="stylesheet" href="about.css">
         <link rel="stylesheet" href="sidebar.css">
         
@@ -26,6 +27,8 @@
 <div id="header"> <?php include "./components/navbar.php" ?></div>
 <div id="body">
   <?php include "sidebar.php" ?>
+
+ <div class="question"><p>Imate dodatnih pitanja?</p></div>
 
   <div class="info-card"> 
 
@@ -200,6 +203,7 @@ Važno je napomenuti da pored ovih usluga vodeći se potrebama grada i kantona, 
 <script src="https://kit.fontawesome.com/572ce00a22.js" crossorigin="anonymous"></script>
 <script type="text/javascript" src="sidebar.js"></script>
 <script type="text/javascript" src="about.js"></script>
+
     </body>
     
    
