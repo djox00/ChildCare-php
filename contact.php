@@ -19,7 +19,11 @@
 
 
 <body>
-  <?php include "./components/navbar.php" ?>
+  <div id="holder">    
+    <div id="header">
+
+  <?php include "./components/navbar.php" ?></div>
+  <div id="body">   
   <?php include "sidebar.php" ?>
   <div class="about"> 
   <h1 class="ml10">
@@ -49,8 +53,10 @@
 </div>
 </div>
 </div>
+</div>
+</div>
 
-
+<?php include "./footer.php"; ?>
   
 
     <script

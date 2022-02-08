@@ -5,6 +5,7 @@ $("#item1").on("click", () => {
     $("#box1").animate({ "height": "toggle" }, 700);
 
 });
+$("#box1").hide();
 $("#box2").hide();
 $("#box3").hide();
 $("#box4").hide();

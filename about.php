@@ -19,12 +19,19 @@
 
 
 <body>
-  <?php include "./components/navbar.php" ?>
+
+<div id="holder">
+
+
+<div id="header"> <?php include "./components/navbar.php" ?></div>
+<div id="body">
   <?php include "sidebar.php" ?>
 
   <div class="info-card"> 
 
-<div class="box-content"><div class="item" id="item1"><input type="button" value="Historija Doma"></div><div class="box-text-container" id="box1"> 
+  <div class="inner-card"> 
+
+<div class="box-content"><div class="item" id="item1"><div class="title">Historija Doma</div><hr></div><div class="box-text-container" id="box1"> 
 <p> 
 Prva organizovana aktivnost na zbrinjavanju djece lišene roditeljskog staranja u općini Tuzla pokrenuta je početkom šezdesetih godina u okviru Centra za socijalni rad. Organizovanom društvenom brigom uz pomoć nadležnih institucija i organa društveno-političke zajednice, oktobra 1962.godine u bivši Dom učenika voćarske škole smještena su djeca lišene roditeljskog staranja sa šireg područja tuzlanske regije.<br><br>
 
@@ -47,7 +54,7 @@ U periodu od 2011. godine, a intenzivno od 2013. godine JU Dom za djecu bez rodi
 
 </p>
 </div></div>
-<div class="box-content"><div class="item" id="item2"><input type="button" value="Organizacija doma"></div><div class="box-text-container" id="box2"> 
+<div class="box-content"><div class="item" id="item2"><div class="title">Organizacija doma</div><hr> </div><div class="box-text-container" id="box2"> 
 <p> 
 JU Dom za djecu bez roditeljskog staranja Tuzla djeluje na jednoj lokaciji kroz nekoliko organizacionih jedinica:<br><br>
 
@@ -90,7 +97,7 @@ Centar za edukaciju i savjetovanje je usluga koja se nadovezuje na rad dnevnog c
 
 </p>
 </div></div>
-<div class="box-content"><div class="item" id="item3"><input type="button" value="Ciljevi i zadaci Doma kao društvene ustanove"></div><div class="box-text-container" id="box3"> 
+<div class="box-content"><div class="item" id="item3"><div class="title">Ciljevi i zadaci Doma kao društvene ustanove</div><hr></div><div class="box-text-container" id="box3"> 
 <p>
 Osnovni zadaci Doma su odgoj djece bez roditeljskog staranja u skladu sa opštim odgojnim ciljem, a specifični zadaci proizilaze iz specifičnosti uzroka zbog kojih je dijete došlo u Dom, kao i specifičnih razvojnih mogućnosti i potreba svakog pojedinog odgajanika.<br><br>
 
@@ -127,7 +134,7 @@ odgoj i obrazovanje, odnosno, aktivan odnos odgajatelja prema djetetu s ciljem o
 
 </p>
 </div></div>
-<div class="box-content"><div class="item" id="item4"><input type="button" value="Princip i metode odgojnog rada u Domu"></div><div class="box-text-container" id="box4"><p>
+<div class="box-content"><div class="item" id="item4"><div class="title">Princip i metode odgojnog rada u Domu</div><hr></div><div class="box-text-container" id="box4"><p>
 Odgojni rad u Domu ostvaruju odgajatelji. Oni su pedagoški voditelji i organizatori odgojnih aktivnosti.Odgojni rad u Domu je vrlo cjelovit. Očituje se na svim temeljnim odgojnim područjima.Zato i za njega vrijede osnovni zahtjevi u području tjelesnog, intelektualnog, moralnog, estetskog i radnog I funkcionalnog odgoja.On ima svoje specifičnosti koje u prvi plan istiću nekoliko posebno vrijednih principa u području odgoja u domu. <br><br>
 
 Takvi principi su: aktivnost, postavljanje zahtjeva, poštovanja osobnosti odgajanika, socijalizacije, individualizacije, posrednog pristupanja odgajaniku, minimalne segregacije i jedinstva odgojnih uticaja.<br><br>
@@ -159,7 +166,7 @@ Pored gore navedenih principa i metoda u odgoju koji su zastupljeni u radu sa dj
 
 
 </p></div></div>
-<div class="box-content"><div class="item" id="item5"><input type="button" value="Uslovi rada"></div><div class="box-text-container" id="box5"><p> 
+<div class="box-content"><div class="item" id="item5"><div class="title">Uslovi rada</div><hr></div><div class="box-text-container" id="box5"><p> 
 Ustanova pruža sve mogućnosti te ostvarivanje programskih sadržaja kako sa aspekta sigurnosti, zagrijavanja (priključen je na gradsku toplanu), općeg higijenskog stanja, tako sa pedagoškog, psihološkog i socijalnog aspekta. Ustanova raspolaže sa građevinskim objektom površine 3.235 m2 te dograđenog aneksa površine 350 m2. <br><br>
 
 Prostorni uslovi obezbjeđuju optimalan kapacitet smještaja 105 djece uzrasta od 0 - 18 godina odnosno do završetka srednjoškolskog obrazovanja ( 65- školski odjel, 20-bebi odjel, 12-prihvatilište, 8- materinski dom, 10-15 po grupi- dnevni centar, 10-15 korisnika po grupi-Centar za savjetovanje i edukaciju)<br><br>
@@ -175,7 +182,9 @@ Važno je napomenuti da pored ovih usluga vodeći se potrebama grada i kantona, 
 
 
 
-</div>
+</div></div></div></div>
+
+<?php include "./footer.php"; ?>
 
   
 

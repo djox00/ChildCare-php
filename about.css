@@ -4,43 +4,37 @@ body {
 .info-card {
   background-color: #272727;
   width: 100%;
-  margin-top: 5%;
-  min-height: 95vh;
+  margin-top: 10%;
+  min-height: 95%;
   position: relative;
   text-align: center;
+  padding-top: 100px;
 }
 .item {
   width: 50%;
   left: 25%;
   position: relative;
-  padding: 50px 0 50px 0;
+  padding: 20px 0 20px 0;
 }
-.item input {
-  width: 20rem;
-  height: 40px;
-  background-color: #571763;
-  border-radius: 20px;
-  border: none;
-  color: white;
+
+.title {
+  color: rgb(173, 172, 172);
+  cursor: pointer;
 }
-.box {
-  width: 100%;
-  min-height: 50px;
-  position: relative;
-  text-align: center;
-}
+
 .box-text-container {
   width: 100%;
-  background-color: #571763;
+  background-color: #272727;
   position: relative;
   overflow: hidden;
 }
+
 .box-text-container p {
   width: 70%;
   margin-left: 15%;
   text-align: justify;
   position: relative;
-  color: whitesmoke;
+  color: rgb(190, 190, 190);
   overflow: hidden;
 }
 
@@ -59,4 +53,31 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #a746b8;
+}
+hr {
+  margin-top: 0;
+  color: whitesmoke;
+}
+
+#header {
+  min-height: 7vh;
+  width: 100%;
+}
+
+#holder {
+  position: relative;
+}
+
+#body {
+  min-height: 83vh;
+
+  position: relative;
+}
+
+#footer {
+  bottom: 0;
+  height: 10vh;
+  left: 0;
+  position: relative;
+  right: 0;
 }
