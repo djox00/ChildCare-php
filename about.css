@@ -9,6 +9,7 @@ body {
   position: relative;
   text-align: center;
   padding-top: 100px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.952);
 }
 .item {
   width: 50%;
@@ -82,13 +83,19 @@ hr {
   right: 0;
 }
 
-.question {
+.contact-box {
   top: 150;
   width: 100%;
   z-index: 1;
   text-align: center;
 }
-.question p {
+.contact-box p {
   color: whitesmoke;
   font-size: 30;
+}
+.contact-box a {
+  text-decoration: none;
+  color: #a746b8;
+  font-weight: 500;
+  font-size: 17;
 }

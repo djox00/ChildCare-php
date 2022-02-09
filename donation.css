@@ -1,0 +1,26 @@
+body {
+  background-color: white;
+}
+
+#header {
+  min-height: 7vh;
+  width: 100%;
+}
+
+#holder {
+  position: relative;
+}
+
+#body {
+  min-height: 83vh;
+
+  position: relative;
+}
+
+#footer {
+  bottom: 0;
+  height: 10vh;
+  left: 0;
+  position: relative;
+  right: 0;
+}

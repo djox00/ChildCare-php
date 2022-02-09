@@ -50,14 +50,14 @@
 </a>
     </div> 
     <div class="col-12 col-md-6 col-lg-3 overflow-hidden box"> 
-   
+    <a href="donation.php"> 
     <div class="overlay2"> 
   
         <img id="image2" src="https://www.akronchildrens.org/images-general/112980/image/medium/shutterstock_152100530.png" alt="kids">
         <div class="card-description" id="c2"><p> Donacije<p>
         <span> <p>Pomozi tako što doniraš i olakšaš život <span style="color: #a746b8;">djeci u ustanovama.</span>  </p></span>
         </div>
-        </div> 
+        </div> </a>
     </div> 
     <div class="col-12 col-md-6 col-lg-3 overflow-hidden box"> 
    

@@ -28,7 +28,12 @@
 <div id="body">
   <?php include "sidebar.php" ?>
 
- <div class="question"><p>Imate dodatnih pitanja?</p></div>
+ <div class="contact-box">
+   <p>Imaš dodatnih pitanja?</p> 
+
+ <a id="contact" href="contact.php">Kontaktiraj nas!</a>
+</div>
+
 
   <div class="info-card"> 
 
