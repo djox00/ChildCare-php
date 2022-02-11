@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&display=swap");
+
 body {
   background-color: #dbab0f;
+  font-family: "Kanit", sans-serif;
 }
 .info-card {
   background-color: #272727;
@@ -31,6 +34,7 @@ body {
 }
 
 .box-text-container p {
+  font-weight: 200;
   width: 70%;
   margin-left: 15%;
   text-align: justify;
@@ -97,5 +101,9 @@ hr {
   text-decoration: none;
   color: #a746b8;
   font-weight: 500;
-  font-size: 17;
+  font-size: 19;
+  transition: 0.4s;
+}
+.contact-box a:hover {
+  font-size: 21;
 }

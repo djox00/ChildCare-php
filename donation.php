@@ -25,34 +25,32 @@
 <body>
 
 <div id="holder">
-
-
 <div id="header"> <?php include "./components/navbar.php" ?></div>
 <div id="body">
+
+<div class="container">   
+  <div class="row">   
+    <div class="col-lg-2 col-md-2 col-sm-12 justify-content-center" align="center">   
+<div class="sidebar-menu">   
+<div class="donation-item" id="paypal"><i class="fab fa-cc-paypal" ></i>   </div> 
+<div class="donation-item"><i class="fab fa-cc-visa"></i></div> 
+<div class="donation-item"><i class="fa-solid fa-money-check-pen"></i></div>
+</div>
+
+</div>
+<div class="col-lg-10 col-md-10 col-sm-12 " align="center">     
+<div class="donation-container" id="donation"></div>
+  
+</div>
+ 
+  
+  
+</div>
+  </div>
+
+
+
   <?php include "sidebar.php" ?>
-
-
-
-  <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
-  <input type="hidden" name="cmd" value="_s-xclick">
-  <input type="hidden" name="hosted_button_id" value="6RNT8A4HBBJRE">
-  <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_buynow_107x26.png" alt="Buy Now">
-  <img alt="" src="https://paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-<table>
-    <tr>
-      <td>Bass Guitar Strings</td>
-      <td>
-        <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
-          <input type="hidden" name="cmd" value="_s-xclick">
-          <input type="hidden" name="hosted_button_id" value="6RNT8A4HBBJRE">
-          <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-          <img alt="" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>
-      </td>
-    </tr>
-  </table>
-
  </div></div>
 
 <?php include "./footer.php"; ?>
@@ -71,10 +69,25 @@
 <script src="https://kit.fontawesome.com/572ce00a22.js" crossorigin="anonymous"></script>
 <script type="text/javascript" src="sidebar.js"></script>
 <script type="text/javascript" src="donation.js"></script>
-
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 
 
     </body>
     
    
     </html> 
+
+
+
+
+
+<!--     <form action="https://www.paypal.com/donate" method="post" target="_top">
+ <input type="hidden" name="business" value="djordjedjuric05@gmail.com">
+ <input type="hidden" name="no_recurring" value="0">
+ <input type="hidden" name="item_name" value="ChildCare">
+ <input type="hidden" name="item_number" value="Test Donacija za ChildCare projekat">
+ <input type="hidden" name="currency_code" value="EUR">
+
+ <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate">
+ <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+</form> -->
