@@ -32,14 +32,29 @@
   <div class="row">   
     <div class="col-lg-2 col-md-2 col-sm-12 justify-content-center" align="center">   
 <div class="sidebar-menu">   
-<div class="donation-item" id="paypal"><i class="fab fa-cc-paypal" ></i>   </div> 
-<div class="donation-item"><i class="fab fa-cc-visa"></i></div> 
+<div class="donation-item" > <a id="paypal"><i class="fab fa-cc-paypal"></i>  </a>      </div> 
+<div class="donation-item"> <a id="visa"> <i class="fab fa-cc-visa"></i> </a> </div> 
 <div class="donation-item"><i class="fa-solid fa-money-check-pen"></i></div>
 </div>
 
 </div>
 <div class="col-lg-10 col-md-10 col-sm-12 " align="center">     
-<div class="donation-container" id="donation"></div>
+<div class="donation-container" id="container" >  
+  
+<div class="inner-donation-container" id="donation"> 
+
+
+
+
+</div>
+
+
+
+
+
+
+
+</div>
   
 </div>
  
