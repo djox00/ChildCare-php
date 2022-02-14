@@ -126,6 +126,7 @@ if(!$newPassword_ERROR && !$confirmNewpassword_ERROR){
 <p class="input-label">e-mail:</p>  
 <input name="newmail" type="text" value="<?php echo ($logged) ? $email : '';?>">   
 <button type="submit" class="submit-changes">Save</button>
+</form> 
 </div>  
 
  <a class="menu-item" id="Changepassword">Promijeni šifru</a> 
@@ -136,12 +137,37 @@ if(!$newPassword_ERROR && !$confirmNewpassword_ERROR){
 <p class="input-label">Potvrdi šifru:</p>      
 <input name="confirmNewpassword" type="password" >    
 <button type="submit" class="submit-changes">Save</button>  
+</form>
 </div> 
        <!-- Potrebno rijesiti to sto se stranica reloada kada se klikne save, samim tim sto se reloada nije moguće odraditi error prikaz  -->
  <a class="menu-item" id="activity">Moje aktivnosti</a>
   <div class="box3">
      
-  <p class="input-label">Ako stignem dodat cu </p>   
+  <p class="input-label">Donacije poklona:  </p>   
+
+  <hr style="color: white; width: 80%; margin-left: 10%; ">
+
+   <?php  
+   $pdo = Database::connect(); 
+   $sql = "SELECT * FROM `wishes` WHERE `user_id` = $id "; 
+   foreach ($pdo->query($sql) as $row) {
+     
+    echo "<div style='width: 80%; margin-left: 10%;'><p style='color: #07a9b4da;'>" . $row['kids_ime'] . ' - <span style="color: rgb(129, 129, 129); ">' . '  ' . $row['wish'] . "</span></p></div>";    
+
+
+
+    } 
+   Database::disconnect(); 
+   
+   
+   ?> 
+
+
+  <hr style="color: white; width: 80%; margin-left: 10%; ">
+
+
+
+
 </div>
 
 </span>

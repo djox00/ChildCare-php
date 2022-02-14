@@ -2,7 +2,7 @@
 class Database
 {
     //naredne cetiri varijable modifikujte u skladu sa vasim okruzenjem
-    private static $dbName = 'mainDB' ;
+    private static $dbName = 'maindb' ;
     private static $dbHost = 'localhost' ;
     private static $username = 'root'; 
     private static $password = ''; 

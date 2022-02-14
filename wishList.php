@@ -37,17 +37,13 @@
 <div id="holder">
 <div id="header">
   <?php include "./components/navbar.php" ?></div>
-
+  <?php include "sidebar.php" ?> 
 
 
   <div id="body">
-  <?php include "sidebar.php" ?> 
+
   <?php  
 
-
-
-  
-  
       $id = null;
       $id_user = null; 
 
@@ -123,7 +119,7 @@
         $q = $pdo->prepare($sql);
         $q->execute(array($kid_id,$ime,$wish));
         Database::disconnect();
-
+        header("Location: wishList.php");
         
       }                                                          ?>
  
@@ -131,7 +127,7 @@
 
    
   <?php  echo ($view_type=='admin') ? 
-  ' <div class="col-12 col-md-5 col-lg-3 overflow-hidden input-box1"><form>
+  ' <div class="col-12 col-md-5 col-lg-3 overflow-hidden input-box1"><form action="wishList.php">
 
   <select style="width: 200px;" class="kids-input-select" name="kid_id" id="kids"> <option value="" disabled selected>Odaberi dijete:</option>' 
    : '' ; 
@@ -247,7 +243,9 @@ Database::disconnect();
                   </tbody>
             </table>
         </div>
+        
     </div> 
+
 
     </div>
 

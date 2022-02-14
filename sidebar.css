@@ -11,7 +11,7 @@
     padding-top: 60px;
     border-top-left-radius: 20px;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: scroll;
   }
   
   .backdrop {
@@ -72,6 +72,7 @@
     top: 5;
     left: 17;
     text-align: center;
+    
   }
   
   .avatar-sidebar {
@@ -81,7 +82,9 @@
     top: 20;
     left: 90;
     position: absolute;
+ 
   }
+  
   .avatar-text-sidebar {
     margin-top: 30px;
     color: #07a9b4da;
@@ -105,6 +108,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+  
   }
   
   .sidebar input {
