@@ -147,7 +147,8 @@ if(!$newPassword_ERROR && !$confirmNewpassword_ERROR){
 
   <hr style="color: white; width: 80%; margin-left: 10%; ">
 
-   <?php  
+   <?php 
+if(isset($_SESSION['valid'])){ 
    $pdo = Database::connect(); 
    $sql = "SELECT * FROM `wishes` WHERE `user_id` = $id "; 
    foreach ($pdo->query($sql) as $row) {
@@ -158,15 +159,14 @@ if(!$newPassword_ERROR && !$confirmNewpassword_ERROR){
 
     } 
    Database::disconnect(); 
-   
+  }
    
    ?> 
 
 
   <hr style="color: white; width: 80%; margin-left: 10%; ">
 
-
-
+  <p class="input-label">Novčane donacije:   </p>   
 
 </div>
 

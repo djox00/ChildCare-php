@@ -60,24 +60,24 @@
         </div> </a>
     </div> 
     <div class="col-12 col-md-6 col-lg-3 overflow-hidden box"> 
-   
+    <a href="dokumenti.php"> 
     <div class="overlay3">
    
         <img id="image3" src="https://www.thesun.co.uk/wp-content/uploads/2021/12/NINTCHDBPICT000700232363.webp" alt="kids">
         <div class="card-description" id="c3"><p>Dokumenti<p>
         <span> <p>Aktuelni pravilnici <span style="color: #a746b8;">JU Dom za djecu bez roditeljskog staranja Tuzla.</span> </p></span>
         </div>
-    </div> 
+    </div> </a>
     </div> 
     <div class="col-12 col-md-6 col-lg-3 overflow-hidden box"> 
-   
+    <a href="gallery.php"> 
     <div class="overlay4"> 
     
         <img id="image4" src="https://www.stormontvail.org/wp-content/uploads/2019/04/theimportanceoforgandonation.jpg" alt="kids">
           <div class="card-description" id="c4"><p>Galerija<p>
           <span> <p>Pogledaj naše slike!</p></span>
           </div>
-    </div> 
+    </div> </a>
     </div> 
    
 

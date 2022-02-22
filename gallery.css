@@ -1,0 +1,34 @@
+#header {
+    min-height: 7vh;
+    width: 100%;
+  }
+  
+  #holder {
+    position: relative;
+  }
+  
+  #body {
+    min-height: 83vh;
+  
+    position: relative;
+  }
+  
+  #footer {
+    bottom: 0;
+    height: 10vh;
+    left: 0;
+    position: relative;
+    right: 0;
+  }
+
+  body{
+      background-color: rgb(56, 56, 56);
+  }
+  .row{
+    overflow: hidden;
+    width: 100%;
+
+  }
+  .row img{
+    max-width: 100%;
+  }

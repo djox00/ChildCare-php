@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&display=swap");
+#header {
+    min-height: 7vh;
+    width: 100%;
+  }
+  
+  #holder {
+    position: relative;
+  }
+  
+  #body {
+    min-height: 83vh;
+  
+    position: relative;
+  }
+  
+  #footer {
+    bottom: 0;
+    height: 10vh;
+    left: 0;
+    position: relative;
+    right: 0;
+  }
+
+body{
+    background-color: rgb(228, 178, 13);
+    font-family: Kanit, sans-serif;
+    font-weight: 200;
+}
+.card{
+    background-color: rgba(36, 36, 36, 0.849);
+    width: 80%;
+    min-height: 600px;
+    left: 10%;
+    margin-top: 4%;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.952);
+    overflow: hidden;
+}
+.file-container{
+  width: 90%;
+  margin-top: 30px;
+  margin-left: 30px;
+  
+}
+.file{
+    border-radius: 25px;
+   
+    width: 60px;
+    height: 60px;
+}
+.file-label{
+  display: inline;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #a4a4a4; 
+  transition: 0.3s;
+}
+.file-label:hover{
+  color: rgb(184, 115, 248);
+}
+
+@media screen and (max-width: 560px) {
+  .file-label{
+    display: block;
+  }
+  .file-container{
+    text-align: center;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: #383838a1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a746b8;
+  border-radius: 20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #464236da;
+}
