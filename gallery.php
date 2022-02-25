@@ -1,6 +1,15 @@
 <?php
    ob_start();
    session_start();
+
+   if(!isset($_SESSION['type']) ){
+    $_SESSION['type'] = 'guest'; 
+ 
+   }
+
+
+   $view_type = $_SESSION['type']; 
+
 ?>
 
 <html lang="en">
@@ -27,19 +36,23 @@
 <div id="holder">
 <div id="header"> <?php include "./components/navbar.php" ?></div>
 <div id="body">
-<form action="fileUpload.php" method="post" enctype="multipart/form-data">
-        Upload a File:
+
+<?php echo   ($view_type=='admin') ?  '<div class="file-upload-holder"><form action="fileUpload.php" method="post" enctype="multipart/form-data">
+       <label> Upload a File:</label>
         <input type="file" name="the_file" id="fileToUpload">
         <input type="submit" name="submit" value="Start Upload">
-    </form>
+    </form></div>' : ''; ?>
 
-<div class="container">   
+ <div class="backdrop-img" id="img-backdrop">   
+<div class="img-view-fullsize" id="img-view">   
+
+</div>
+
+ </div>
 <div class="row" id="rw"> 
 
-
-
 </div>
-</div>
+
 
 
   

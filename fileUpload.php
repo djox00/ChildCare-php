@@ -2,9 +2,9 @@
     $currentDirectory = getcwd();
     $uploadDirectory = "/Gallery/";
 
-    $errors = []; // Store errors here
+    $errors = []; 
 
-    $fileExtensionsAllowed = ['jpeg','jpg','png']; // These will be the only file extensions allowed 
+    $fileExtensionsAllowed = ['jpeg','jpg','png']; 
 
     $fileName = $_FILES['the_file']['name'];
     $fileSize = $_FILES['the_file']['size'];
@@ -29,8 +29,11 @@
 
         if ($didUpload) {
           echo "The file " . basename($fileName) . " has been uploaded";
+          header("location:javascript://history.go(-1)");
+
         } else {
           echo "An error occurred. Please contact the administrator.";
+          header("location:javascript://history.go(-1)");
         }
       } else {
         foreach ($errors as $error) {
